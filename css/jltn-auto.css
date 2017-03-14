@@ -1,0 +1,33 @@
+.divSelect {
+    width: 97%;
+    border: solid #ccc 1px;
+    float: left;
+    position: absolute;
+    min-height: 250px;
+    height: 250px;
+    overflow-y: scroll;
+    background: #fff;
+    z-index: 99999;
+    display: none;
+}
+
+.divSelect ul {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.divSelect ul li {
+    list-style: none;
+    /* color: #000; */
+    margin-left: 0px;
+    padding-left: 10px;
+    /* border-bottom: solid red 1px; */
+    height: 25px;
+    line-height: 25px;
+    /* width: 99%; */
+}
+.divSelect ul li:hover {
+    background: #3a8ee8;
+    color: #fff;
+    font-weight: bold;
+}
